@@ -39,3 +39,6 @@ def votes(url):
 	return votes
 
 ```
+
+you can also use **threading** to get things faster and more excited jsut un-comment all the threading lines code and comment the the increaser call funtion 
+

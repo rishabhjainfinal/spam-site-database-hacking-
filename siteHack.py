@@ -43,7 +43,7 @@ def increase_values(url,how_many=100):
 	a=votes(url)
 	print(a)
 
-	
+# your url	
 url='https://little1.in/contest/madhav-sethi-aam-ke-peti-3857/'
 # if how many will be e
 increase_values(url,how_many=1000)

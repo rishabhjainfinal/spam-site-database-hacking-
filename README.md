@@ -1,5 +1,9 @@
 # vote_increaser_on_a_site
 
+**Site_url: [https://little1.in/]**
+
+This is test user => [https://little1.in/contest/madhav-sethi-aam-ke-peti-3857/]
+
 this site is a spam site which get trafic by a some child photos compitition
 so i hack its database api - because it have some loopholes 
 1: **it provides a ajax code in html file**
@@ -72,3 +76,7 @@ bs4
 urllib.request
 threading
 ```
+
+**sucess example**
+
+<img style='display:block' src="https://github.com/rishabhjainfinal/vote_increaser_on_a_site/blob/master/Screenshot%20(69).png" >

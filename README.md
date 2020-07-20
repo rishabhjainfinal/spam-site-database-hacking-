@@ -24,3 +24,18 @@ it turns out that **name = ''** blank here and
 
 so just to get **authorid** 
 which is provided in html tag
+
+<img src="https://github.com/rishabhjainfinal/vote_increaser_on_a_site/blob/master/Screenshot%20(68).png" >
+
+SO FOR EACH VOTE YOU HAVE TO ADD +1 IN YOUR **authorid**  ALTHOUGH IT ALSO ADD A VOTE WHEN REQUESTED FROM SAME **authorid   ¯\\_(ツ)_/¯ **
+
+and then i make a simple script to fetch current votes 
+```bash
+def votes(url):
+	source = urllib.request.urlopen(url).read()
+	soup = bs.BeautifulSoup(source,features="html.parser")
+	for i in soup.select('div.blog-item'):
+		votes=i.p.strong.text
+	return votes
+
+```

@@ -61,7 +61,14 @@ def increaser(n):
 
 this funtion will send request to the databasse of site and take **contestid** as arg 
 
-thats all
+**thats all**
 we spam the spamer
 
 
+all the require modues are here install them by pip install {module name}
+```bash
+requests
+bs4
+urllib.request
+threading
+```

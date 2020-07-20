@@ -1,4 +1,4 @@
-# vote_increaser_on_a_site
+# vote increaser on a site
 
 **Site_url: [https://little1.in/]**
 

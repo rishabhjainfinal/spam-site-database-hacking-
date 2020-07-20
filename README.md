@@ -40,5 +40,22 @@ def votes(url):
 
 ```
 
-you can also use **threading** to get things faster and more excited jsut un-comment all the threading lines code and comment the the increaser call funtion 
+you can also use **threading** to get things faster and more excited jsut un-comment all the threading lines code and comment the the increaser call funtion you will see it when you see the file
+i don't have the power and internet speed to do do but i tested it it wooks fine 
+
+```bash
+def increaser(n):
+	database_url = "https://little1.in/wp-admin/admin-ajax.php"
+	contestid=url.split('/')[-2].split('-')[-1]
+
+	payload = f'action=vote_form_data&contestid={contestid}&authorid={n}&name='
+	headers = {
+	  'Content-Type': 'application/x-www-form-urlencoded',
+	  'Cookie': 'sitename_newvisitor=1; voteStatus-4233=4233'
+	}
+
+	response = requests.request("POST", database_url, headers=headers, data = payload)
+```
+
+
 

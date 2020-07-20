@@ -57,5 +57,9 @@ def increaser(n):
 	response = requests.request("POST", database_url, headers=headers, data = payload)
 ```
 
+this funtion will send request to the databasse of site and take **contestid** as arg 
+
+thats all
+we spam the spamer
 
 

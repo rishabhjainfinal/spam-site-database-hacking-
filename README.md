@@ -28,7 +28,7 @@ which is provided in html tag
 <img src="https://github.com/rishabhjainfinal/vote_increaser_on_a_site/blob/master/Screenshot%20(68).png" >
 
 SO FOR EACH VOTE YOU HAVE TO ADD +1 IN YOUR **authorid**  ALTHOUGH IT ALSO ADD A VOTE WHEN REQUESTED FROM SAME **authorid   ¯\\_(ツ)_/¯ **
-
+**next**
 and then i make a simple script to fetch current votes 
 ```bash
 def votes(url):
@@ -41,7 +41,7 @@ def votes(url):
 ```
 
 you can also use **threading** to get things faster and more excited jsut un-comment all the threading lines code and comment the the increaser call funtion you will see it when you see the file
-i don't have the power and internet speed to do do but i tested it it wooks fine 
+i don't have the power and internet speed to do but i tested it wooks fine 
 
 ```bash
 def increaser(n):

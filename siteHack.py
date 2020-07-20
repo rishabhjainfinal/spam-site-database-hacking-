@@ -1,6 +1,5 @@
 import requests
 import threading
-import time
 import bs4 as bs
 import urllib.request
 
